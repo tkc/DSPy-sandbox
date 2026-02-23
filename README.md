@@ -32,6 +32,7 @@ cp .env.example .env
 | 04 | `examples/04_custom_module.py` | **Custom Module** - `dspy.Module` を継承した多段階 QA・コードレビュー |
 | 05 | `examples/05_react_agent.py` | **ReAct Agent** - ツール（計算機・単位変換）を活用するエージェント |
 | 06 | `examples/06_optimizer.py` | **Optimizer** - `BootstrapFewShot` によるプロンプト自動最適化 |
+| 07 | `examples/07_agentic_rag.py` | **Agentic RAG** - ReAct で検索ツールを使う最小構成 |
 
 ## 実行方法
 
@@ -62,6 +63,7 @@ uv run python examples/06_optimizer.py
 ## ドキュメント
 
 - [DSPy 内部実装（概観）](docs/INTERNALS.md)
+- [DSPy と類似ライブラリの比較](docs/COMPARISON.md)
 
 ## 参考リンク
 
