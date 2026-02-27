@@ -44,6 +44,7 @@ uv run python examples/03_signature_class.py
 uv run python examples/04_custom_module.py
 uv run python examples/05_react_agent.py
 uv run python examples/06_optimizer.py
+uv run python examples/07_agentic_rag.py
 ```
 
 ## DSPy の主要コンセプト
@@ -64,6 +65,7 @@ uv run python examples/06_optimizer.py
 
 - [DSPy 内部実装（概観）](docs/INTERNALS.md)
 - [DSPy と類似ライブラリの比較](docs/COMPARISON.md)
+- [Agentic RAG 解説](docs/AGENTIC_RAG.md)
 
 ## 参考リンク
 
